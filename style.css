@@ -5,12 +5,7 @@ body{
 section{
     height: 400px;
     padding-bottom: 200px;
-}
-.half-width{
-    width:40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    padding-top: 50px;
 }
 .border{
     border-left: 7px solid;
@@ -18,11 +13,27 @@ section{
     border-image-slice: 1;
     padding-left: 10px;
 }
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 60%;
+    padding-left: 5%;
+}
 .width{
     width:25%;
     height:40%;
     float: left;
-    margin-left: 7%;
+    margin-left: 8%;
     padding-left: 1.5%;
     padding-right: 1.5%;
 }
@@ -32,16 +43,6 @@ section{
 .width3{
     margin-left: 1%;
     margin-right: 6%;
-}
-h1{
-    font-size: 50px;
-}
-h1 span{
-    color: orange;
-}
-.half-width img{
-    width: 60%;
-    padding-left: 15%;
 }
 .anchor-button{
     text-decoration: none;
@@ -70,4 +71,23 @@ h1 span{
 #GOALS{
     border-radius: 10px;
     background-color: burlywood;
+}
+.develop-width{
+    padding-left: 0%;
+    margin-left:0%; 
+}
+footer{
+    background-color: black;
+}
+footer h3{
+    font-style: italic;
+    color: wheat;
+    text-align: center;
+}
+h3 span{ 
+    color: tomato;
+}
+footer p{
+    color: wheat;
+    text-align: center;
 }
