@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 400px;
+    padding-bottom: 200px;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+.width{
+    width:25%;
+    height:40%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.width2{
+    margin-left: 1%;
+}
+.width3{
+    margin-left: 1%;
+    margin-right: 6%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+.half-width img{
+    width: 60%;
+    padding-left: 15%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.mission-2022{
+    text-align: center;
+    font-size:40px;
+}
+.mission-2022 span{
+    color: orange;
+}
+#MISSION{
+    border-radius: 10px;
+    background-color: paleturquoise
+}
+#VISION{
+    border-radius: 10px;
+    background-color: wheat;
+    
+}
+#GOALS{
+    border-radius: 10px;
+    background-color: burlywood;
+}
